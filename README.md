@@ -39,8 +39,8 @@ Restart Kibana.
 ## Uninstall
 bin/kibana-plugin remove wet_boew_style
 
-#Development
+## Development
 
-#Credit
+## Credit
 Thanks to Carlos Giraldo Rodriguez for his tutorial on gradiant_style
 
