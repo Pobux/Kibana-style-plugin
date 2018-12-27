@@ -18,6 +18,8 @@ Overwrite the favicons folder at `/usr/share/kibana/src/ui/public/assets/favicon
 
 Then use `$YOUR_KIBANA_PATH/bin/kibana-plugin install $PATH_TO_wet_boew_style.zip`
 
+Restart Kibana.
+
 ### Install Canada loading gif
 1. Under `src/core_plugins/kibana/translations/en.json`, change the text
 2. Add the svg under `src/ui/ui_render/views/ui_app` and `chrome.jade`
@@ -32,10 +34,7 @@ Then use `$YOUR_KIBANA_PATH/bin/kibana-plugin install $PATH_TO_wet_boew_style.zi
       margin: 0px 0px 10px 0px;
     }
 
-``` `optimize/bundles`
-
-
-Restart Kibana.
+```
 
 ## Uninstall
 bin/kibana-plugin remove wet_boew_style
