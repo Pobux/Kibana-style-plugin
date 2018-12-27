@@ -25,9 +25,3 @@ bin/kibana-plugin install https://github.com/gradiant/kibana-style-plugin/releas
 
 ### Kibana 6.x and 5.x
 bin/kibana-plugin remove gradiant_style
-
-## Docker Image
-We also include a *Dockerfile* to create a kibana image that includes this plugin and other customizations:
-* Custom title
-* Custom throbber
-* Custom favicons
