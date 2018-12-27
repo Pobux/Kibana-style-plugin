@@ -1,0 +1,10 @@
+{
+  "name": "wet_boew_style",
+  "version": "0.1.0",
+  "main": "index.js",
+  "kibana": {
+    "version": "6.2.4"
+  },
+  "author": "Antoine LeBel <antoine.lebel@canada.ca>",
+  "website": "https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html"
+}

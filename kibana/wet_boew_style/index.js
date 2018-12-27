@@ -2,10 +2,10 @@ export default function (kibana) {
   return new kibana.Plugin({
    uiExports: {
      app: {
-        title: 'gradiant_style',
+        title: 'wet_boew_style',
         order: -100,
-        description: 'Gradiant Styling',
-        main: 'plugins/gradiant_style/index.js',
+        description: 'Wet BOEW Styling',
+        main: 'plugins/wet_boew_style/index.js',
         hidden: true
      }
     }
