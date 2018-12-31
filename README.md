@@ -16,7 +16,7 @@ Kibana has to find the new .css file or it will fail to start
 
 Overwrite the favicons folder at `/usr/share/kibana/src/ui/public/assets/favicons` with the favicons folder
 
-Then use `$YOUR_KIBANA_PATH/bin/kibana-plugin install $PATH_TO_wet_boew_style.zip`
+Then use `$YOUR_KIBANA_PATH/bin/kibana-plugin install $PATH_TO_wet_boew_style.zip` or simply copy the wet_boew_style folder under `kibana/plugins`
 
 Restart Kibana.
 
